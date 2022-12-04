@@ -5,10 +5,11 @@ import param_MCJE as param
 
 mc = Minecraft.create(port=param.PORT_MC)
 mc.postToChat('Hello Minecraft Java Edition 1.16.5')
-mc.setBlocks(65, 4, 65,  71, 4, 71,  param.GOLD_BLOCK)
-mc.setBlocks(66, 5, 66,  70, 5, 70,  param.GOLD_BLOCK)
-mc.setBlocks(67, 6, 67,  69, 6, 69,  param.GOLD_BLOCK)
-mc.setBlocks(68, 7, 68,  68, 7, 68,  param.GOLD_BLOCK)
+mc.setBlocks(115, 4, 80,  123, 4, 88,  param.GOLD_BLOCK)
+mc.setBlocks(116, 5, 81,  122, 5, 87,  param.GOLD_BLOCK)
+mc.setBlocks(117, 6, 82,  121, 6, 86,  param.GOLD_BLOCK)
+mc.setBlocks(118, 7, 83,  120, 7, 85,  param.GOLD_BLOCK)
+mc.setBlocks(119, 8, 84,  119, 8, 84,  param.GOLD_BLOCK)
 
 mc.setBlocks(50, 4, 50,  50, 4, 50,  param.GOLD_BLOCK)
 
